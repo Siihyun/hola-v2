@@ -2,9 +2,21 @@ import styled from '@emotion/styled';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+import { useEffect } from 'react';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
+  useEffect(() => {
+    const testFetch = async () => {
+      fetch('http://localhost:3000/api/v1/test', {
+        method: 'GET',
+      })
+        .then((res) => res.json())
+        .then(console.log);
+    };
+
+    testFetch();
+  });
   return (
     <div className={styles.container}>
       <Head>
