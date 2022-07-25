@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -38,7 +39,7 @@ const Home: NextPage = () => {
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
+            <Test>Examples &rarr;</Test>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
@@ -71,3 +72,7 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+const Test = styled.h2`
+  color: red;
+`;
