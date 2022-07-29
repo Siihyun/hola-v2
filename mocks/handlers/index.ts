@@ -1,3 +1,3 @@
-import { TestHandler } from './test';
+import { StudyHandler } from './study';
 
-export const handlers = [...TestHandler];
+export const handlers = [...StudyHandler];
