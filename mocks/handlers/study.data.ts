@@ -1,0 +1,30 @@
+const studyDetail = {
+  language: ['javascript', 'figma'],
+  isDeleted: false,
+  isClosed: false,
+  views: 99,
+  likes: [],
+  totalLikes: 0,
+  startDate: '2022-07-28T03:35:47.891Z',
+  endDate: null,
+  type: '1',
+  recruits: '2',
+  onlineOrOffline: 'on',
+  contactType: 'ok',
+  contactPoint: 'https://open.kakao.com/o/sl3tmpse ',
+  udemyLecture: null,
+  expectedPeriod: '1',
+  _id: '62e2048437ad670014039d5b',
+  title: '취직용 퍼블리셔 포트폴리오 하실 분을 모집합니다',
+  content:
+    '<p>퍼블리셔 프로젝트 같이 진행하실 분을 모집합니다</p><p><br /></p><p>기술스택은 HTML, CSS, JAVASCIPT, JQUERY면 됩니다</p><p><br /></p><p>그래픽툴은 포토샵, Figma면 됩니다</p><p><br /></p><p>저도 프로젝트을 처음 진행하기 때문에 저와 처음부터 시작하실 분이라도 괜찮습니다</p><p><br /></p><p>카카오톡 오픈채팅 <a href="https://open.kakao.com/o/sl3tmpse" target="_blank">https://open.kakao.com/o/sl3tmpse</a> </p>',
+  author: '62e1f59637ad670014039ac0',
+  comments: [],
+  createdAt: '2022-07-28T03:37:40.429Z',
+  updatedAt: '2022-07-29T15:36:06.852Z',
+  hashTag: ['프로젝트', '온라인', '2명', '1개월'],
+  totalComments: 0,
+  id: '62e2048437ad670014039d5b',
+};
+
+export default studyDetail;
